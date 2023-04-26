@@ -17,8 +17,12 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
    - `H/J/K/L`光标← ↓ ↑ →
    - `ctrl + y` `ctrl + e` 光标移动一行
    - `ctrl + f` `ctrl + b` 翻页
-   - `0/$/w`光标移动到当前行首/行尾/下一个单词
-   - `dd/10dd`
+   - `0/$/w` 光标移动到当前行首/行尾/下一个单词
+   - `dd/10dd` 删除光标所在行/从光标所在行删除10行
+   - `yy/10yy`复制光标所在行/从光标所在行复制10行
+   - `p`粘贴
+   - `u`撤销
+   - `ctrl + r` 恢复
 - 输入模式：
    - 字符按键以及Shift组合，输入字符
    - `ENTER`，回车键，换行
@@ -36,3 +40,21 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
    - `set ts=4` 修改制表键的空格键
    - `set ruler/noruler` 显示/不显示光标的位置
    - `syntax on/off` 显示/不显示高量语法
+
+<br>
+
+## vim 配置文件
+-  `vim .vimrc`创建空的`.vimrc`文件，以下为文件内容
+```
+set nu - 显示行号
+syntax on - 显示高亮语法
+set ts=4 - 制表键空格4个
+set expandtab - 使用制表键设置为空格
+set autoindent - 自动缩进
+set ruler - 显示光标位置
+set nohls -取消查找后的颜色标记 
+
+```
+
+- 配置环境变量 
+- `source .bash_profile`激活环境变量
