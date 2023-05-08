@@ -40,6 +40,29 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
    - `set ts=4` 修改制表键的空格键
    - `set ruler/noruler` 显示/不显示光标的位置
    - `syntax on/off` 显示/不显示高量语法
+ - 映射快捷键：
+   - `map <F2> gg999999dd ` 在命令模式按f2清空内容
+   - `inoremap _main if __name__ == "__main __":` 在输入模式输入`'_main'`自动替换成 `if __name__ == "__main __":`
+ - 多文件操作：
+   - `ls` 底线命令模式查看所有打开文件
+   - `b 数字` 指定显示那个文件
+   - `vs` 垂直拆分窗口
+   - `sp` 水平拆分窗口
+   - `ctrl + w` 两次切换窗口
+   - `wqa` 全部保存退出
+   - `vim -d 文件1 文件2` 打开多文件进行版本比较
+ - 别名：
+   - alias ll='ls -l'
+   - unalias ll 取消别名
+- 宏操作：
+  - `qa` a是寄存器的名字，录制宏 
+  - `q` 结束录制
+  - `@a` a是寄存器的名字，播放宏
+- 查找替换：
+  
+
+- 文件搜索：
+  
 
 <br>
 
@@ -57,4 +80,34 @@ set nohls -取消查找后的颜色标记
 ```
 
 - 配置环境变量 
-- `source .bash_profile`激活环境变量
+```
+cd ~ : 回到用户主目录
+ls -a : 查看隐藏文件,找到.bash_profile文件
+vim .bash_profile : 打开此文件
+找到path 在后面加 :pyhton3安装地址/bin
+source .bash_profile : 激活环境变量文件
+python --version : 测试是否安装成功
+```
+
+<br>
+
+## 链接
+- 硬链接
+
+  `test.py`文件名 拷贝在user/bin路径下名为`haha`文件 ，只是引用，不占用内存空间
+```
+   ln test.py /user/bin/haha 
+```
+- 软连接（符号链接）
+  
+  相当于window系统的创建快捷方式
+```
+  ln -s user/local/python/bin/python3 /user/bin/python3
+  ```
+
+<br>
+
+
+
+
+
