@@ -59,9 +59,20 @@ Vim 是从 vi 发展出来的一个文本编辑器。代码补全、编译及错
   - `q` 结束录制
   - `@a` a是寄存器的名字，播放宏
 - 查找替换：
+  - `/0` 0为查找内容（命令模式）
+  - `1,$s/0/10/cgie` 1第一行$最后一行,把0替换成10，c-confirm确认g-global全局模式i-ignore忽略大小写e-error忽略错误(底线命令模式)
   
 
 - 文件搜索：
+  - `grep 正则表达式`
+  - `find / -name '*.html'` 根据名字搜索
+  - `find / -size +10M` 根据大小搜索
+  - `find / -ctime` 创建时间
+  - `find / -atime` 最后访问时间
+  - `find / -mtime` 最后修改时间
+  - `find / -type` 文件类型搜索 d/f/l/s
+  
+  
   
 
 <br>
