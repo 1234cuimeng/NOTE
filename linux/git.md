@@ -38,3 +38,21 @@
 - 远端与本地不同步时
    
 `git pull`==先拉取最新的后，在进行提交
+
+
+
+## git 分支管理
+`git branch (branchname)` 创建分支
+`git checkout (branchname)` 切换分支
+`git merge` 合并分支
+`git branch` 列出分支
+`git checkout -b (branchname)` 创建并切到此分支
+`git branch -d (branchname)` 删除分支
+`git reset --hard HEAD^` 回到上一个版本
+`git reset --hard <ID>` 汇到指定版本 
+## git 查看历史管理
+`git log` 查看历史提交记录
+ - `--oneline` 查看历史记录的简洁的版本
+ - `--graph`查看历史中什么时候出现了分支、合并
+ - `--reverse` 参数来逆向显示所有日志
+`git blame <file>` 以列表形式查看指定文件的历史修改记录
