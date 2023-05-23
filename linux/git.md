@@ -1,4 +1,4 @@
-### 新建仓库 
+### github新建仓库 
 - 初始化仓库
 `echo "# Name" >> README.md`
 `git init`
@@ -39,7 +39,27 @@
    
 `git pull`==先拉取最新的后，在进行提交
 
+## git 基础配置
+- 设置 [全局] 提交人：
+      $ git config [--global] user.name "Your Name"
 
+- 设置 [全局] 提交人的Email地址：
+      $ git config [--global] user.email "email@example.com"
+
+- 设置Git使用Socks5代理 http/https 协议：
+      $ git config --global http/https.proxy http/https://127.0.0.1:1080
+
+- 配置用户名和密码的存储方式：
+cache：登陆凭证存放在内存中，15分钟后清楚
+store：登陆凭证用明文的形式存放在磁盘中，永不过期
+manager：关于 manager 的更多信息请参阅 这里
+      $ git config --global credential.helper store/cache/manager
+
+- 取消 [全局] 配置：
+      $ git config [--global] --unset ConfigName
+
+- 查看 [全局] 配置：
+      $ git config [--global] --list
 
 ## git 分支管理
 `git branch (branchname)` 创建分支
