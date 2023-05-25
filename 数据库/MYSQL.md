@@ -61,4 +61,9 @@ primary key (column_name1)
 - 别名
   `select 列名1 as 别名, 列名2 as 别名 from 表名`
 - 筛选
-  `select 列名 as 别名，case 列名 when 1 then '' else '' end as 性别 from 表名`
+  `select 列名 as 别名，case 列名 when <条件> then '' else '' end as 别名 from 表名`
+  `select 列名, 列名 from 表名 where <条件>`
+  - `between  and`两者之间
+  - `distinct`去重  
+  - `is not null` `is null`判断空值
+  - `order by`排序(默认升序 asc升序 desc降序)

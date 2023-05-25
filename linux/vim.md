@@ -51,8 +51,8 @@ Vim 是从 vi 发展出来的一个文本编辑器。
    - `wqa` 全部保存退出
    - `vim -d 文件1 文件2` 打开多文件进行版本比较
  - 别名：
-   - alias ll='ls -l'
-   - unalias ll 取消别名
+   - `alias ll='ls -l'` 别名（ll=ls -l）
+   - `unalias ll` 取消别名
 - 宏操作：
   - `qa` a是寄存器的名字，录制宏 
   - `q` 结束录制
