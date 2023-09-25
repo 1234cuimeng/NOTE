@@ -23,6 +23,8 @@ make
  `redis-server`
 - 查看 redis 是否启动？
  `redis-cli`
+- 是否成功安装Redis
+ `redis 127.0.0.1:6379> ping`
 > 127.0.0.1 是本机 IP ，6379 是 redis 服务端口。现在我们输入 PING 命令。PONG说明安装成功
 
 ## 测试Redis安装成功
