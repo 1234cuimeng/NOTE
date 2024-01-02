@@ -75,7 +75,9 @@ manager：关于 manager 的更多信息请参阅 这里
  - `--graph`查看历史中什么时候出现了分支、合并
  - `--reverse` 参数来逆向显示所有日志
 `git reflog` 查看历史和未来版本
+`git reset --hard` 进行已修改或者暂存，但未提交文件退回
+`git rest --hard origin/master`进行已提交，但是未推送的版本回退
 `git blame <file>` 以列表形式查看指定文件的历史修改记录
-`git reset --hard HEAD^` 回到上一个版本
+`git reset --hard HEAD^` 回到上一个版本（进行已提交且推送的回退）
 `git reset --hard <ID>` 汇到指定版本 
 `git checkout --<file>`  将暂存区的文件恢复到工作区
