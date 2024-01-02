@@ -60,4 +60,97 @@ every(callbackFn, thisArg)
 
 <hr>
 
-## 示例                                                                                                                  
+## 实例
+### 检查所有数组元素的大小
+下例测试数组中的所有元素是否都大于 10。
+```javascript
+function isBigEnough(element, index, array) {
+  return element >= 10;
+}
+[12, 5, 8, 130, 44].every(isBigEnough); // false
+[12, 54, 18, 130, 44].every(isBigEnough); // true
+```
+
+### 检查一个数组是否是另一个数组的子集
+下面的示例测试一个数组的所有元素是否都存在于另一个数组中。
+```javascript
+const isSubset = (array1, array2) =>
+  array2.every((element) => array1.includes(element));
+
+console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 7, 6])); // true
+console.log(isSubset([1, 2, 3, 4, 5, 6, 7], [5, 8, 7])); // false
+```
+
+### 在稀疏数组上使用 every()
+every() 不会在空槽上运行它的断言函数。
+```javascript
+console.log([1, , 3].every((x) => x !== undefined)); // true
+console.log([2, , 2].every((x) => x === 2)); // true
+```
+
+### 影响初始数组（修改、添加和删除）
+以下示例测试修改数组时 every 方法的行为。
+```javascript
+// --------------
+//   修 改 元 素
+// --------------
+let arr = [1, 2, 3, 4];
+arr.every((elem, index, arr) => {
+  arr[index + 1]--;
+  console.log(`[${arr}][${index}] -> ${elem}`);
+  return elem < 2;
+});
+
+// 循环会迭代 3 次
+// 没有修改的情况下只会迭代 2 次
+//
+// 第 1 次迭代：[1,1,3,4][0] -> 1
+// 第 2 次迭代：[1,1,2,4][1] -> 1
+// 第 3 次迭代：[1,1,2,3][2] -> 2
+
+// --------------
+//   添 加 元 素
+// --------------
+arr = [1, 2, 3];
+arr.every((elem, index, arr) => {
+  arr.push("new");
+  console.log(`[${arr}][${index}] -> ${elem}`);
+  return elem < 4;
+});
+
+// 循环迭代 3 次，即使在添加新元素之后
+//
+// 第 1 次迭代：[1, 2, 3, new][0] -> 1
+// 第 2 次迭代：[1, 2, 3, new, new][1] -> 2
+// 第 3 次迭代：[1, 2, 3, new, new, new][2] -> 3
+
+// --------------
+//   删 除 元 素
+// --------------
+arr = [1, 2, 3, 4];
+arr.every((elem, index, arr) => {
+  arr.pop();
+  console.log(`[${arr}][${index}] -> ${elem}`);
+  return elem < 4;
+});
+
+// 循环仅迭代 2 次
+// 因为剩余的元素被 `pop()` 删除
+//
+// 第 1 次迭代：[1,2,3][0] -> 1
+// 第 2 次迭代：[1,2][1] -> 2
+```
+
+### 在非数组对象上调用 every()
+every() 方法读取 this 的 length 属性，然后访问每个整数索引，直到到达末尾或 callbackFn 返回 false。
+```javascript
+const arrayLike = {
+  length: 3,
+  0: "a",
+  1: "b",
+  2: "c",
+};
+console.log(
+  Array.prototype.every.call(arrayLike, (x) => typeof x === "string"),
+); // true
+```
