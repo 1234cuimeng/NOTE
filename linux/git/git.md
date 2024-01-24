@@ -63,7 +63,7 @@ manager：关于 manager 的更多信息请参阅 这里
 `git reset --hard <ID>` 汇到指定版本 
 `git checkout --<file>`  将暂存区的文件恢复到工作区
 
-<hr>
+<hr>  
 
 ## GitHub 上传大文件（>100M）
 - 下载Git LFS(Git Large File)客户端  
@@ -75,6 +75,8 @@ manager：关于 manager 的更多信息请参阅 这里
 - 要将存储库中的文件类型与 `Git LFS` 相关联， 请输入 `git lfs track`，后跟要自动上传到 `Git LFS` 的文件扩展名的名称。
 `git lfs track "*.扩展名"` 或者 `git lfs track "文件名.扩展名"`
 
+- 添加.gitattributes（配置文件，缺少它执行执行其他git操作可能会有问题）
+`git add .gitattributes`
 
 ### 问题解决
 - git读取中文文件名
