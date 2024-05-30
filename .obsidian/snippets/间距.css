@@ -1,0 +1,22 @@
+/* table 居中 */
+.markdown-preview-view, .markdown-rendered table {
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 列表 */
+.markdown-reading-view ul > li {
+  margin-top: 20px;
+}
+.markdown-reading-view ol > li {
+  margin-top: 20px;
+}
+
+/* tag 标签 */
+a.tag {
+  margin-top: 100px;
+}

@@ -11,9 +11,6 @@ make
  cd src
  ./redis-server
 ```
-
-<br>
-
 ## Ubuntu apt 命令安装
 
 - 在 Ubuntu 系统安装 Redis 可以使用以下命令

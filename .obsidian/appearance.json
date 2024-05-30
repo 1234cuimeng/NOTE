@@ -1,0 +1,10 @@
+{
+  "accentColor": "#ed5a5a",
+  "cssTheme": "Border",
+  "enabledCssSnippets": [
+    "header_margin",
+    "letter",
+    "间距"
+  ],
+  "theme": "obsidian"
+}

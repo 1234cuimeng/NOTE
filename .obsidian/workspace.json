@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "6bc3dc313aacef5d",
+    "type": "split",
+    "children": [
+      {
+        "id": "625729c23898eb2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dfba21775a8b4d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data_Analysis_with_python/CSV文件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cb61399199488317",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbde4c7fa404645a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa729ef6d8c847ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "6324d0694f2ecadf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "98fc402627b031a7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4d110d5b5e4b90e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "b65304ac1a8f731b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c483aca28a39bbb1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Data_Analysis_with_python/CSV文件.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f54ef388d050a962",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Data_Analysis_with_python/CSV文件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "84b0d355f2e6b731",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d7dc8546aad9062",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Data_Analysis_with_python/CSV文件.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "2dfba21775a8b4d5",
+  "lastOpenFiles": [
+    "HTML/表单.md",
+    "Data_Analysis_with_python/CSV文件.md",
+    "python/python基础.md",
+    "python/img/shujuleixing.png",
+    "python/FLASK框架.md",
+    "linux/常用命令.md",
+    "python/python基本语法.md",
+    "python/条件语句.md",
+    "未命名.md",
+    "python/变量以及数据类型转换.md",
+    "计算机网络/HTTP与HTTPS协议.md",
+    "未命名.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "测试/性能测试/何为内存溢出，何为内存泄露.md",
+    "未命名 1.canvas",
+    "测试/性能测试/压测策略.md",
+    "python/WSGI接口.md",
+    "python/迭代器和可迭代对象.md",
+    "linux/git/git.md",
+    "Redis/安装Redis.md",
+    "python/包的导入.md"
+  ]
+}

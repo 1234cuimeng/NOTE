@@ -31,7 +31,7 @@ def application(environ, start_respone):
 
 通常情况下，都应该把`Content-Type`头发送给浏览器。其他很多常用的HTTP Header也应该发送。
 
-然后，函数的返回值`b'<h1>Hello, web!</h1>'`将作为HTTP响应的Body发送给浏览器。
+然后，函数的返回值`Hello, web!`将作为HTTP响应的Body发送给浏览器。
 
 有了WSGI，我们关心的就是如何从environ这个dict对象拿到HTTP请求信息，然后构造HTML，通过`start_response()`发送Header，最后返回Body。
 

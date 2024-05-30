@@ -1,0 +1,14 @@
+body {
+  --shadow-color: #E6E4D9;
+}
+
+.cm-sizer, .markdown-preview-sizer {
+  box-shadow: 0 0 4mm 0 var(--shadow-color);
+  padding-left: 20mm;
+  padding-right: 20mm;
+  padding-top: 9.3mm;
+}
+
+.markdown-preview-sizer {
+  padding-top: 5mm;
+}

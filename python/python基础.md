@@ -1,6 +1,8 @@
 ## <center>python基础
 <hr>
+
 ### What is python？
+
 &ensp;Python 是一个高层次的结合了==解释性==、==编译性==、==互动性==和==面向对象==的脚本语言
 
 <hr>
@@ -41,5 +43,6 @@
 <hr>
 
 ### 数据类型
+
 <img src="/python/img/shujuleixing.png" width="500px" height= "400px" align="center" />
 
