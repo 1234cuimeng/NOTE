@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data_Analysis_with_python/Pandas-DataFrame.md",
+                "file": "数据库/常用知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data_Analysis_with_python/Pandas-DataFrame.md",
+                "file": "数据库/常用知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data_Analysis_with_python/Pandas-DataFrame.md",
+                "file": "数据库/常用知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data_Analysis_with_python/Pandas-DataFrame.md"
+                "file": "数据库/常用知识.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "4f5e403bdbf60c88",
   "lastOpenFiles": [
-    "未命名.canvas",
+    "数据库/MYSQL安装.md",
+    "数据库/MYSQL.md",
+    "产品/名词解释.md",
+    "数据库/常用知识.md",
     "Data_Analysis_with_python/Pandas-DataFrame.md",
+    "未命名.canvas",
     "Data_Analysis_with_python/Pandas-Series.md",
     "2024-07-09.md",
     "Data_Analysis_with_python/CSV文件.md",
@@ -157,9 +161,7 @@
     "python/WSGI接口.md",
     "Data_Analysis_with_python/图.md",
     "产品/excel实践问题及解决.md",
-    "产品/名词解释.md",
     "产品/产品经理.md",
-    "数据库/MYSQL.md",
     "产品/app/音乐短视频.md",
     "产品/名词解释",
     "产品/app",
@@ -179,7 +181,6 @@
     "测试/性能测试/压测策略.md",
     "python/迭代器和可迭代对象.md",
     "linux/git/git.md",
-    "Redis/安装Redis.md",
-    "python/包的导入.md"
+    "Redis/安装Redis.md"
   ]
 }
