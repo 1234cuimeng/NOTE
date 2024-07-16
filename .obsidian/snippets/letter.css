@@ -1,5 +1,5 @@
 body {
-  --shadow-color: #E6E4D9;
+  --shadow-color: #f0ebd2;
 }
 
 .cm-sizer, .markdown-preview-sizer {
@@ -11,4 +11,8 @@ body {
 
 .markdown-preview-sizer {
   padding-top: 5mm;
+}
+.workspace-leaf,
+.workspace-header {
+    box-shadow: none !important;
 }

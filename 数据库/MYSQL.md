@@ -65,5 +65,5 @@ primary key (column_name1)
   `select 列名, 列名 from 表名 where <条件>`
   - `between  and`两者之间
   - `distinct`去重  
-  - `is not null` `is null`判断空值
+  - `is not null`      `is null`判断空值
   - `order by`排序(默认升序 asc升序 desc降序)

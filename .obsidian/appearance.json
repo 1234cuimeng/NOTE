@@ -1,10 +1,11 @@
 {
-  "accentColor": "#ed5a5a",
+  "accentColor": "",
   "cssTheme": "Border",
   "enabledCssSnippets": [
     "header_margin",
     "letter",
-    "间距"
+    "间距",
+    "header"
   ],
   "theme": "obsidian"
 }
