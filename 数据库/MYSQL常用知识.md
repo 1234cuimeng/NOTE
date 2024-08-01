@@ -44,23 +44,100 @@
     [ORDER BY <order_expression>]
     [ROWS or RANGE <frame_clause>]
 )
-
 ```
+- **ROW_NUMBER()**：返回分区内每行的唯一行号。
+- **RANK()**：返回分区内每行的排名，相同的值具有相同的排名，排名中间会有空缺。
+- **DENSE_RANK()**：类似 RANK()，但排名中间没有空缺
+- - **FIRST_VALUE()**：返回窗口内排序后的第一个值。
+- **LAST_VALUE()**：返回窗口内排序后的最后一个值。
+- **SUM()、AVG()、MIN()、MAX()** 等聚合函数：在窗口内应用这些聚合计算。
 ### 示例
 
 	假设有一张名为 `sales` 的表，包含如下数据：
 
-| id  | salesperson | region | sales_amoun t | sales_date |
-| --- | ----------- | ------ | ------------- | ---------- |
-| 1   | Alice       | North  | 1000          | 2023-01-01 |
-| 2   | Bob         | South  | 1500          | 2023-01-02 |
-| 3   | Charlie     | North  | 2000          | 2023-01-03 |
-| 4   | David       | East   | 2500          | 2023-01-04 |
-| 5   | Eve         | West   | 3000          | 2023-01-05 |
-|     |             |        |               |            |
+| id  | salesperson | region | sales_amount | sales_date |
+| --- | ----------- | ------ | ------------ | ---------- |
+| 1   | Alice       | North  | 1000         | 2023-01-01 |
+| 2   | Bob         | South  | 1500         | 2023-01-02 |
+| 3   | Charlie     | North  | 2000         | 2023-01-03 |
+| 4   | David       | East   | 2500         | 2023-01-04 |
+| 5   | Eve         | West   | 3000         | 2023-01-05 |
+| 6   | Frank       | North  | 2000         | 2023-01-06 |
 - ROW_NUMBER示例
-	此查询为每个区域内的销售人员按销售金额降序排列并分配一个唯一的行号。
-```
-select region, salesperson,row_number() over (paptition by region order by sales_amoun t desc) as rank
+	为每个区域内的销售人员按销售金额降序排列并分配一个唯一的行号。
+```sql
+select region, sales_amount, row_number() over (paptition by region order by sales_amoun t desc) as rank
 from sales
+
+'''
+结果输出
+| salesperson | sales_amount | rank |
+|-------------|--------------|------|
+| Charlie     | 2000         | 1    |
+| Frank       | 2000         | 2    |
+| Alice       | 1000         | 3    |
+| Bob         | 1500         | 1    |
+| David       | 2500         | 1    |
+| Eve         | 3000         | 1    |
+
+'''
 ```
+- RANK()
+	按区域对销售人员的销售额进行排名
+```sql
+select salesperson, region, sales_amount, rank() over (paptition by region order by sales_amount desc) as rank
+from sales
+'''
+结果输出
+| salesperson | region | sales_amount | rank |
+|-------------|--------|--------------|------|
+| Charlie     | North  | 2000         | 1    |
+| Frank       | North  | 2000         | 1    |
+| Alice       | North  | 1000         | 3    |
+| Bob         | South  | 1500         | 1    |
+| David       | East   | 2500         | 1    |
+| Eve         | West   | 3000         | 1    |
+'''
+```
+- DENSE_RANK()
+	按区域对销售人员的销售额进行排名，销售额相同排名相同，排名相同的分数后，排名数应该是下一个连续的整数。
+```sql
+select salesperson, region, sales_amount, dense_number() over (paptition by region order by sales_amount desc)
+from sales
+
+'''
+结果输出
+| salesperson | region | sales_amount | rank |
+|-------------|--------|--------------|------|
+| Charlie     | North  | 2000         | 1    |
+| Frank       | North  | 2000         | 1    |
+| Alice       | North  | 1000         | 2    |
+| Bob         | South  | 1500         | 1    |
+| David       | East   | 2500         | 1    |
+| Eve         | West   | 3000         | 1    |
+'''
+```
+- LAG() 和 LEAD()
+	显示每个销售人员的销售金额，并且显示前一天和后一天的销售金额。
+```sql
+select 
+	salesperson,
+	sales_amount, 
+	lag(sales_amount, 1) over (order by sales_date) as 
+previous_sales,
+	lead(sales_amount, 1) over (order by sales_date) as
+next_sales
+from sales
+
+'''
+结果输出
+| salesperson | sales_amount | previous_sales | next_sales |
+|-------------|--------------|----------------|------------|
+| Alice       | 1000         | NULL           | 1500       |
+| Bob         | 1500         | 1000           | 2000       |
+| Charlie     | 2000         | 1500           | 2500       |
+| David       | 2500         | 2000           | 3000       |
+| Eve         | 3000         | 2500           | 2000       |
+| Frank       | 2000         | 3000           | NULL       |
+```
+

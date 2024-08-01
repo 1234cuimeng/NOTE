@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据库/MYSQL常用知识.md",
+                "file": "数据分析/统计学篇/概率论基础.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据库/MYSQL常用知识.md",
+                "file": "数据分析/统计学篇/概率论基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据库/MYSQL常用知识.md",
+                "file": "数据分析/统计学篇/概率论基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据库/MYSQL常用知识.md"
+                "file": "数据分析/统计学篇/概率论基础.md"
               }
             }
           }
@@ -138,21 +138,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "4f5e403bdbf60c88",
   "lastOpenFiles": [
+    "数据分析/统计学篇/描述性统计学.md",
+    "数据分析/统计学篇/概率论基础.md",
+    "数据分析/Q&A.md",
+    "数据分析/统计学篇",
+    "数据分析/统计学篇.md",
+    "数据库/MYSQL常用知识.md",
     "数据库/MYSQL安装.md",
     "数据库/mysql实例.md",
     "数据库/未命名.md",
-    "数据库/MYSQL常用知识.md",
-    "数据分析/Q&A.md",
     "数据分析/名词解释.md",
     "数据分析/excel实践问题及解决.md",
     "数据分析/产品经理.md",
@@ -178,9 +182,6 @@
     "计算机网络/HTTP与HTTPS协议.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "测试/性能测试/何为内存溢出，何为内存泄露.md",
-    "未命名 1.canvas",
-    "测试/性能测试/压测策略.md",
-    "python/迭代器和可迭代对象.md"
+    "未命名 1.canvas"
   ]
 }
