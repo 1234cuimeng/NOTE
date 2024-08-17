@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据分析/统计学篇/概率论基础.md",
+                "file": "数据分析/统计学篇/概率论.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据分析/统计学篇/概率论基础.md",
+                "file": "数据分析/统计学篇/概率论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据分析/统计学篇/概率论基础.md",
+                "file": "数据分析/统计学篇/概率论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据分析/统计学篇/概率论基础.md"
+                "file": "数据分析/统计学篇/概率论.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f5e403bdbf60c88",
+  "active": "fa729ef6d8c847ec",
   "lastOpenFiles": [
     "数据分析/统计学篇/描述性统计学.md",
-    "数据分析/统计学篇/概率论基础.md",
+    "数据分析/统计学篇/概率论.md",
     "数据分析/Q&A.md",
     "数据分析/统计学篇",
     "数据分析/统计学篇.md",
