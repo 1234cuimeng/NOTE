@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e0f53380fcbb5038",
+        "id": "6d7b138af7b7baa8",
         "type": "tabs",
         "children": [
           {
-            "id": "13feb370b7995fe8",
+            "id": "378d73efe785d319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图片/打包流程.md",
+                "file": "python/FLASK框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e3d36849ef02c8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图片/打包流程.md",
+                "file": "面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图片/打包流程.md",
+                "file": "面试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图片/打包流程.md"
+                "file": "面试.md"
               }
             }
           }
@@ -138,16 +151,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "13feb370b7995fe8",
+  "active": "4e3d36849ef02c8d",
   "lastOpenFiles": [
+    "python/FLASK框架.md",
+    "面试.md",
+    "python/WSGI接口.md",
+    "linux/常用命令.md",
+    "HTML/IMG/html.jpg",
+    "工具/抓包工具/Wireshark.md",
+    "工具/抓包工具/Charles.md",
+    "工具/性能测试工具/perfDog.md",
+    "工具/弱网工具/Clumsy弱网工具.md",
+    "测试/Untitled.md",
+    "测试/性能测试/压测策略.md",
+    "测试/性能测试/何为内存溢出，何为内存泄露.md",
+    "测试/性能测试/unity Profiler.md",
+    "linux/vim.md",
+    "linux/git/git.md",
+    "Redis/安装Redis.md",
+    "测试/梳理.md",
+    "图片/打包流程.md",
     "图片/打包流程.pdf",
     "图片/image-4.png",
     "图片/image-3.png",
@@ -155,18 +186,11 @@
     "图片/image-1.png",
     "图片/image.png",
     "图片",
-    "图片/打包流程.md",
     "图片/Pasted image 20240917164321.png",
     "图片/Pasted image 20240917163951.png",
     "图片/Pasted image 20240906140413.png",
     "图片/Pasted image 20240906135613.png",
-    "图片/Pasted image 20240906135549.png",
-    "测试/Untitled.md",
     "Untitled 1.md",
-    "Redis/安装Redis.md",
-    "测试/梳理.md",
-    "测试/性能测试/unity Profiler.md",
-    "测试/性能测试/何为内存溢出，何为内存泄露.md",
     "测试/线上问题.md",
     "测试/跨服问题.md",
     "python/列表.md",
@@ -174,17 +198,7 @@
     "python/生成器.md",
     "python/python基础.md",
     "python/python基本语法.md",
-    "工具/弱网工具/Clumsy弱网工具.md",
-    "工具/抓包工具/Wireshark.md",
-    "工具/性能测试工具/perfDog.md",
-    "工具/抓包工具/Charles.md",
     "cuimeng.md",
-    "python/正则表达式.md",
-    "linux/常用命令.md",
-    "测试/性能测试/压测策略.md",
-    "工具/AndroidStudio/Android Studio连接真机.md",
-    "python/FLASK框架.md",
-    "python/WSGI接口.md",
     "数据分析/Excel篇",
     "数据分析/统计学篇",
     "未命名.canvas",
