@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "49027297bc5d874d",
+        "id": "e0f53380fcbb5038",
         "type": "tabs",
         "children": [
           {
-            "id": "4f5e403bdbf60c88",
+            "id": "13feb370b7995fe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数据分析/统计学篇/概率论.md",
+                "file": "图片/打包流程.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数据分析/统计学篇/概率论.md",
+                "file": "图片/打包流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数据分析/统计学篇/概率论.md",
+                "file": "图片/打包流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,12 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数据分析/统计学篇/概率论.md"
+                "file": "图片/打包流程.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -146,40 +146,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fa729ef6d8c847ec",
+  "active": "13feb370b7995fe8",
   "lastOpenFiles": [
-    "数据分析/统计学篇/描述性统计学.md",
-    "数据分析/统计学篇/概率论.md",
-    "数据分析/Q&A.md",
-    "数据分析/统计学篇",
-    "数据分析/统计学篇.md",
-    "数据库/MYSQL常用知识.md",
-    "数据库/MYSQL安装.md",
-    "数据库/mysql实例.md",
-    "数据库/未命名.md",
-    "数据分析/名词解释.md",
-    "数据分析/excel实践问题及解决.md",
-    "数据分析/产品经理.md",
-    "Data_Analysis_with_python/Pandas-DataFrame.md",
-    "未命名.canvas",
-    "Data_Analysis_with_python/Pandas-Series.md",
-    "2024-07-09.md",
-    "Data_Analysis_with_python/CSV文件.md",
+    "图片/打包流程.pdf",
+    "图片/image-4.png",
+    "图片/image-3.png",
+    "图片/image-2.png",
+    "图片/image-1.png",
+    "图片/image.png",
+    "图片",
+    "图片/打包流程.md",
+    "图片/Pasted image 20240917164321.png",
+    "图片/Pasted image 20240917163951.png",
+    "图片/Pasted image 20240906140413.png",
+    "图片/Pasted image 20240906135613.png",
+    "图片/Pasted image 20240906135549.png",
+    "测试/Untitled.md",
+    "Untitled 1.md",
+    "Redis/安装Redis.md",
+    "测试/梳理.md",
+    "测试/性能测试/unity Profiler.md",
+    "测试/性能测试/何为内存溢出，何为内存泄露.md",
+    "测试/线上问题.md",
+    "测试/跨服问题.md",
+    "python/列表.md",
+    "python/装饰器.md",
+    "python/生成器.md",
+    "python/python基础.md",
+    "python/python基本语法.md",
+    "工具/弱网工具/Clumsy弱网工具.md",
+    "工具/抓包工具/Wireshark.md",
+    "工具/性能测试工具/perfDog.md",
+    "工具/抓包工具/Charles.md",
+    "cuimeng.md",
+    "python/正则表达式.md",
+    "linux/常用命令.md",
+    "测试/性能测试/压测策略.md",
+    "工具/AndroidStudio/Android Studio连接真机.md",
     "python/FLASK框架.md",
     "python/WSGI接口.md",
-    "Data_Analysis_with_python/图.md",
-    "数据分析/app/音乐短视频.md",
+    "数据分析/Excel篇",
+    "数据分析/统计学篇",
+    "未命名.canvas",
     "产品/名词解释",
     "数据分析/app",
     "数据分析",
-    "HTML/表单.md",
-    "python/python基础.md",
-    "python/img/shujuleixing.png",
-    "linux/常用命令.md",
-    "python/python基本语法.md",
-    "python/条件语句.md",
-    "python/变量以及数据类型转换.md",
-    "计算机网络/HTTP与HTTPS协议.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="944fe355-4a54-497d-8253-cf58dcaea845" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Redis/安装Redis.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Redis/安装Redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../linux/常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/../linux/常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/python基本语法.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/python基本语法.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/python基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/python基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/列表.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/列表.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/正则表达式.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/正则表达式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/生成器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/生成器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/装饰器.md" beforeDir="false" afterPath="$PROJECT_DIR$/../python/装饰器.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../工具/AndroidStudio/Android Studio连接真机.md" beforeDir="false" afterPath="$PROJECT_DIR$/../工具/AndroidStudio/Android Studio连接真机.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../工具/弱网工具/Clumsy弱网工具.md" beforeDir="false" afterPath="$PROJECT_DIR$/../工具/弱网工具/Clumsy弱网工具.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../工具/抓包工具/Charles.md" beforeDir="false" afterPath="$PROJECT_DIR$/../工具/抓包工具/Charles.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据分析/Q&amp;A.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据分析/excel实践问题及解决.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../测试/性能测试/unity Profiler.md" beforeDir="false" afterPath="$PROJECT_DIR$/../测试/性能测试/unity Profiler.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../测试/性能测试/何为内存溢出，何为内存泄露.md" beforeDir="false" afterPath="$PROJECT_DIR$/../测试/性能测试/何为内存溢出，何为内存泄露.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../测试/性能测试/压测策略.md" beforeDir="false" afterPath="$PROJECT_DIR$/../测试/性能测试/压测策略.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2mBvdcTup9LMq6KOrtqAA9fwdmg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="944fe355-4a54-497d-8253-cf58dcaea845" name="Changes" comment="" />
+      <created>1726562873736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726562873736</updated>
+    </task>
+    <servers />
+  </component>
+</project>
