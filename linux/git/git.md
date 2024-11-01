@@ -40,22 +40,21 @@ git config --global http/https.proxy
     
 - 配置用户名和密码的存储方式：
 
-      cache：将登录凭证存放在内存中，默认 15 分钟后清除（可以设置自 定义超时时间）
+ cache：将登录凭证存放在内存中，默认 15 分钟后清除（可以设置自 定义超时时间）
 ```bash
 git config --global credential.helper cache
 ```
-
-    自定义超时时间（例如，设置为 1 小时）：
+自定义超时时间（例如，设置为 1 小时）：
 ```bash
 git config --global credential.helper 'cache --timeout=3600'
 ```
 
-    store：登陆凭证用明文的形式存放在磁盘中，永不过期
+store：登陆凭证用明文的形式存放在磁盘中，永不过期
 ```bash
 git config --global credential.helper store
 ```
 
-    manager：使用 Git Credential Manager，它提供更安全的凭证存储和管理
+manager：使用 Git Credential Manager，它提供更安全的凭证存储和管理
 ```bash
 git config --global credential.helper manager
 ```
@@ -100,73 +99,74 @@ git config --global --unset https.proxy
 
 ## git 分支管理
 
-	创建分支
+- 创建分支
 ```bash
 git branch branchname
 ```
-	合并分支
+- 合并分支
 ```bash
 git merge
 ```
-	列出分支
+- 列出分支
 ```bash
 git branch
 ```
-	切换分支
+- 切换分支
 ```bash
 git checkout branchname
 ```
-	创建并切到此分支
+- 创建并切到此分支
 ```bash
 git checkout -b branchname
 ```
-	删除分支
+- 删除分支
 ```bash
 git branch -d branchname
 ```
  
 ## git 查看历史管理
-	查看历史提交记录
+
+- 查看历史提交记录
 ```bash
 git log
 ```
-	查看历史记录的简洁的版本
+- 查看历史记录的简洁的版本
 ```bash
 git log --oneline
 ```
-	  查看历史中什么时候出现了分支、合并
+-  查看历史中什么时候出现了分支、合并
 ```bash
 git log --graph
 ```
-	 参数来逆向显示所有日志 
+- 参数来逆向显示所有日志 
 ```bash
 git log --reverse
 ```
-	查看历史和未来版本
+- 查看历史和未来版本
 ```bash
 git reflog
 ```
-	进行已修改或者暂存，但未提交文件退回
+- 进行已修改或者暂存，但未提交文件退回
 ```bash
 git reset --hard
 ```
-	进行已提交，但是未推送的版本回退
+- 进行已提交，但是未推送的版本回退
 ```bash
 git rest --hard origin/master
 ```
-	以列表形式查看指定文件的历史修改记录
+- 以列表形式查看指定文件的历史修改记录
 ```bash
 git blame <file>
 ```
-	回到上一个版本（进行已提交且推送的回退）
+- 回到上一个版本（进行已提交且推送的回退）
 ```bash
 git reset --hard HEAD^
 ```
-	汇到指定版本 
+- 汇到指定版本 
 ```bash
 git reset --hard <ID>
 ```
-	将暂存区的文件恢复到工作区
+- 将暂存区的文件恢复到工作区
 ```bash
 git checkout --<file>
 ```
@@ -186,7 +186,7 @@ git lfs install
 ```bash
 git lfs track "*.扩展名"
 ```
- 或者 
+   或者 
  ```bash
  git lfs track "文件名.扩展名"
  ```
