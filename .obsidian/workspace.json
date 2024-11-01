@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d76ad2d212f19182",
+        "id": "bdffa395384f1381",
         "type": "tabs",
         "children": [
           {
-            "id": "15db3ab0a36e71c8",
+            "id": "9f835314af4059bd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux/git/git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "git"
+              "title": "New tab"
             }
           }
         ]
@@ -136,11 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "linux/git/git.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of git"
+              "title": "Outline"
             }
           }
         ],
@@ -160,45 +154,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15db3ab0a36e71c8",
+  "active": "9f835314af4059bd",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Pasted image 20240928172018.png",
-    "工具/img/Pasted image 20240928172743.png",
+    "工具/AndroidStudio/Android Studio下载、安装、环境变量.md",
+    "工具/img/java_home.png",
+    "工具/img/java_version.png",
+    "工具/img/Mac系统.png",
     "工具/img/Pasted image 20240928172519.png",
     "工具/img/Pasted image 20240928172433.png",
     "工具/img/Pasted image 20240928172018.png",
-    "Pasted image 20240928172743.png",
+    "工具/img/企业微信截图_16753986335790.png",
+    "工具/img/Pasted.md",
+    "工具/img/Pasted image 20240928172743.png",
+    "工具/img/设置.png",
+    "工具/img/系统变量.png",
+    "数据库/MYSQL安装.md",
+    "数据库/MYSQL常用知识.md",
+    "数据库/MYSQL命令.md",
+    "数据库/mysql实例.md",
+    "测试/梳理.md",
+    "安装包/APKPure_v3.20.20_apkpure.com.apk",
+    "APKPure_v3.20.20_apkpure.com.apk",
+    "测试/Untitled.md",
+    "测试/三星海外版新设备配置测试环境（debug测试机）.md",
+    "安装包",
+    "Redis/安装Redis.md",
+    "linux/git/git.md",
     "python/FLASK框架.md",
-    "Pasted image 20240928172433.png",
-    "Pasted image 20240928172519.png",
-    "图片/Pasted image 20240906133501.png",
     "工具/抓包工具/Charles.md",
     "工具/抓包工具/Wireshark.md",
-    "工具/AndroidStudio/Android Studio下载、安装、环境变量.md",
     "面试.md",
     "python/WSGI接口.md",
     "linux/常用命令.md",
-    "HTML/IMG/html.jpg",
     "工具/性能测试工具/perfDog.md",
     "工具/弱网工具/Clumsy弱网工具.md",
-    "测试/Untitled.md",
     "测试/性能测试/压测策略.md",
     "测试/性能测试/何为内存溢出，何为内存泄露.md",
     "测试/性能测试/unity Profiler.md",
     "linux/vim.md",
-    "linux/git/git.md",
-    "Redis/安装Redis.md",
-    "测试/梳理.md",
     "图片/打包流程.md",
     "图片/打包流程.pdf",
     "图片",
     "Untitled 1.md",
-    "测试/线上问题.md",
-    "测试/跨服问题.md",
-    "python/列表.md",
-    "python/装饰器.md",
-    "python/生成器.md",
     "数据分析/Excel篇",
     "数据分析/统计学篇",
     "未命名.canvas",
