@@ -11,10 +11,14 @@
             "id": "9f835314af4059bd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "工具/AndroidStudio/Android Studio下载 安装 环境变量.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Android Studio下载 安装 环境变量"
             }
           }
         ]
@@ -132,9 +136,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "工具/AndroidStudio/Android Studio下载 安装 环境变量.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Android Studio下载 安装 环境变量"
             }
           }
         ],
@@ -156,7 +162,7 @@
   },
   "active": "9f835314af4059bd",
   "lastOpenFiles": [
-    "工具/AndroidStudio/Android Studio下载、安装、环境变量.md",
+    "工具/AndroidStudio/Android Studio下载 安装 环境变量.md",
     "工具/img/java_home.png",
     "工具/img/java_version.png",
     "工具/img/Mac系统.png",
