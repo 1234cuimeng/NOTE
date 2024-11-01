@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6d7b138af7b7baa8",
+        "id": "d76ad2d212f19182",
         "type": "tabs",
         "children": [
           {
-            "id": "378d73efe785d319",
+            "id": "15db3ab0a36e71c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/FLASK框架.md",
+                "file": "linux/git/git.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4e3d36849ef02c8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "面试.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "byCreatedTimeReverse"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -67,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -75,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -98,10 +93,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -129,7 +126,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -138,8 +137,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试.md"
-              }
+                "file": "linux/git/git.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of git"
             }
           }
         ],
@@ -151,23 +152,34 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "4e3d36849ef02c8d",
+  "active": "15db3ab0a36e71c8",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Pasted image 20240928172018.png",
+    "工具/img/Pasted image 20240928172743.png",
+    "工具/img/Pasted image 20240928172519.png",
+    "工具/img/Pasted image 20240928172433.png",
+    "工具/img/Pasted image 20240928172018.png",
+    "Pasted image 20240928172743.png",
     "python/FLASK框架.md",
+    "Pasted image 20240928172433.png",
+    "Pasted image 20240928172519.png",
+    "图片/Pasted image 20240906133501.png",
+    "工具/抓包工具/Charles.md",
+    "工具/抓包工具/Wireshark.md",
+    "工具/AndroidStudio/Android Studio下载、安装、环境变量.md",
     "面试.md",
     "python/WSGI接口.md",
     "linux/常用命令.md",
     "HTML/IMG/html.jpg",
-    "工具/抓包工具/Wireshark.md",
-    "工具/抓包工具/Charles.md",
     "工具/性能测试工具/perfDog.md",
     "工具/弱网工具/Clumsy弱网工具.md",
     "测试/Untitled.md",
@@ -180,25 +192,13 @@
     "测试/梳理.md",
     "图片/打包流程.md",
     "图片/打包流程.pdf",
-    "图片/image-4.png",
-    "图片/image-3.png",
-    "图片/image-2.png",
-    "图片/image-1.png",
-    "图片/image.png",
     "图片",
-    "图片/Pasted image 20240917164321.png",
-    "图片/Pasted image 20240917163951.png",
-    "图片/Pasted image 20240906140413.png",
-    "图片/Pasted image 20240906135613.png",
     "Untitled 1.md",
     "测试/线上问题.md",
     "测试/跨服问题.md",
     "python/列表.md",
     "python/装饰器.md",
     "python/生成器.md",
-    "python/python基础.md",
-    "python/python基本语法.md",
-    "cuimeng.md",
     "数据分析/Excel篇",
     "数据分析/统计学篇",
     "未命名.canvas",

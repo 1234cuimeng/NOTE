@@ -42,6 +42,32 @@ manager：关于 manager 的更多信息请参阅 这里
 
 <hr>
 
+## git 代理
+
+- 查看当前代理
+```bash
+git config --global --get http.proxy
+git config --global --get https.proxy
+```
+- 全局设置代理
+```bash
+// 在仓库的根目录下运行以下命令
+git config --global http.proxy http://代理地址:端口
+git config --global https.proxy http://代理地址:端口
+```
+- 为单个仓库设置代理
+```bash
+git config http.proxy http://代理地址:端口
+git config https.proxy http://代理地址:端口
+```
+- 取消代理
+```bash
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+<hr>
+
 ## git 分支管理
 `git branch (branchname)` 创建分支
 `git checkout (branchname)` 切换分支
